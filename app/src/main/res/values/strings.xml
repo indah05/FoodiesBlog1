@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Foodies Blog</string>
+    <string name="food_name">Name Makanan</string>
+    <string name="detail">Detail</string>
+    <string name="food_title">Food Title</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="bahan_makanan">bahan makanan</string>
+    <string name="directions">Directions</string>
+    <string name="step">Step</string>
+    <string name="info_step">Info Step</string>
+    <string name="about">about</string>
+
+</resources>

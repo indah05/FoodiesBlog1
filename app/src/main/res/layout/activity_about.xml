@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFCFC"
+    tools:context=".AboutActivity">
+
+
+    <ImageView
+        android:id="@+id/img_profile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/indah_foto" />
+
+    <TextView
+        android:id="@+id/name_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_profile"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="24dp"
+        android:text="Indah Ratna Sari"
+        android:textColor="#2d2d2d"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/email_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_profile"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="8dp"
+        android:text="indahratnasari05@gmail.com" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Kenyamanan Adalah Perjalanan Hati"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"
+        android:textColor="#A8A8A8"
+        android:textStyle="italic"/>
+
+</RelativeLayout>
